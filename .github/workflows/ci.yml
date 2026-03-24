@@ -94,7 +94,7 @@ jobs:
 
     - run: echo hello > world.txt
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v7
       with:
         name: my-artifact
         path: world.txt
